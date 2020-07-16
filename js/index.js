@@ -1,3 +1,7 @@
-window.addEventListener('load', function(event) {
+// import { html } from './util.js';
+
+window.addEventListener('load', init);
+
+function init() {
 	// TODO
-});
+}
