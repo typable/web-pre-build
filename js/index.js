@@ -1,7 +1,3 @@
-// import { html } from './util.js';
-
-window.addEventListener('load', init);
-
-function init() {
+window.onload = function() {
 	// TODO
-}
+};

@@ -1,4 +1,4 @@
-function html(func) {
+export function html(func) {
 	return {
 		build: function(args) {
 			let template = document.createElement('template');
@@ -13,5 +13,3 @@ function html(func) {
 		}
 	};
 }
-
-export { html };
